@@ -143,3 +143,16 @@ cd ./evaluation/FID
 
 python fid.py
 ```
+
+## Citation
+
+```
+@InProceedings{Shi_2025_CVPR,
+    author    = {Shi, Yingdong and Li, Changming and Wang, Yifan and Zhao, Yongxiang and Pang, Anqi and Yang, Sibei and Yu, Jingyi and Ren, Kan},
+    title     = {Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {8192-8202}
+}
+```
