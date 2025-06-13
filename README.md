@@ -62,7 +62,9 @@ python prepare_locating_latents.py
 ```
 
 ## Dissecting Bias Mechanism
-*You can ***skip*** this step and proceed directly to the **"Bias Mitigation"** step because we have provided ready-to-use resources* in [Checkpints (Google Drive)](https://drive.google.com/drive/folders/1VxfXj4RO-tnxzTQ3LiuBmTGXAtEnkRtm?usp=drive_link).
+*For P2, You can ***skip*** this step and proceed directly to the **"Bias Mitigation"** step, because we have provided ready-to-use resources* in [Checkpints (Google Drive)](https://drive.google.com/drive/folders/1VxfXj4RO-tnxzTQ3LiuBmTGXAtEnkRtm?usp=drive_link).
+
+*For Stable Diffsion v1.5, you can ***skip*** both **"Train SAE"** and **"Train h-classifier"** steps.*
 
 ### 1. Train SAE
 ```bash
