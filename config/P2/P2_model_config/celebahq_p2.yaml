@@ -1,0 +1,17 @@
+attention_resolutions: 16
+class_cond: false
+diffusion_steps: 1000
+dropout: 0.0
+image_size: 256
+learn_sigma: true
+noise_schedule: linear
+num_channels: 128
+num_res_blocks: 1
+num_head_channels: 64
+resblock_updown: true
+use_fp16: false
+use_scale_shift_norm: true
+timestep_respacing: 50
+use_ddim: true
+model_path: pretrained_model/P2/celebahq_p2.pt
+sample_dir: samples

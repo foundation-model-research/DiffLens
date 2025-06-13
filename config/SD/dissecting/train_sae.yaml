@@ -1,0 +1,4 @@
+model_args_path: ./config/SD/SD_model_config/model.yaml
+# Train args.
+lr: 0.001
+batch_size: 8

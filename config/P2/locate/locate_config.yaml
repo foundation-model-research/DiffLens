@@ -1,0 +1,5 @@
+sparse_autoencoder_model_path: sparse_autoencoder_model_dir/
+classifier_name: gender
+classification_model_path: classification_model_dir/best_gender.pth
+model_args_path: ./config/P2/P2_model_config/celeba_hq.yaml
+dataset_dir: latent_dataset_dir

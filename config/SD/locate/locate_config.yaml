@@ -1,0 +1,8 @@
+sparse_autoencoder_model_path: ./sae-ckpts # Download from google drive
+classifier_name: age
+classification_model_path: ./h_classifier # Download from google drive
+sd_model_path: stable-diffusion-v1-5/stable-diffusion-v1-5
+hookpoints: ["mid_block"]
+ae_k: 1024
+ae_expansion_factor: 4
+kernel_size: 8

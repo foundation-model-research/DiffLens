@@ -1,0 +1,4 @@
+model_args_path: ./config/P2/P2_model_config/celeba_hq.yaml
+# Train args.
+lr: 0.001
+batch_size: 8

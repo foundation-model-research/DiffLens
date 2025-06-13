@@ -1,0 +1,19 @@
+generate_seed: 0
+target_attr: age
+top_k: 0
+top_k_list: "10_0_30"
+edit_ratios: "30.0_0.0_50.0"
+feature_saved_path: ./save/
+kernel_size: 8
+num_samples: 500
+
+use_sae: True
+
+ae_k: 1024
+ae_expansion_factor: 8
+
+sae_path: ./sae-ckpts # Download from google drive
+edit_method: add_all_probability
+
+sample_dir: "./samples"
+model_path: stable-diffusion-v1-5/stable-diffusion-v1-5

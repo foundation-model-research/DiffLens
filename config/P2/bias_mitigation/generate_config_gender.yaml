@@ -1,0 +1,15 @@
+generate_seed: 0
+target_attr: gender
+top_k: 0
+top_k_list: "30_30"
+edit_ratios: "1.43_1.0"
+features_saved_path: ./features/P2
+num_samples: 10000
+
+use_sae: True
+sparse_autoencoder_model_path: ./sae-ckpts
+
+model_args_path: ./config/P2/P2_model_config/celeba_hq.yaml
+model_path: ./celebahq_p2.pt
+
+sample_dir: "./samples"

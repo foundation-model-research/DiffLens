@@ -1,0 +1,20 @@
+model_name: "P2"
+
+train_sae:
+  train: False
+  run_args_path: ./config/P2/dissecting/train_sae.yaml
+  sae_args_path: ./config/P2/sae_config/sae_config.yaml
+
+train_h_classifier:
+  train: False
+  h_classifier_config_path: ./config/P2/train_h_classifier/h_classifier_config.yaml
+
+locate:
+  locate: False
+  locate_config_path: ./config/P2/locate/locate_config.yaml
+  sae_args_path: ./config/P2/sae_config/sae_config.yaml
+
+bias_mitigation:
+  generate: False
+  generate_config_path: ./config/P2/bias_mitigation/generate_config_race.yaml
+  sae_args_path: ./config/P2/sae_config/sae_config.yaml

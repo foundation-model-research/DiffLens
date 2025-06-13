@@ -1,0 +1,20 @@
+model_name: "Stable Diffusion v1.5"
+
+train_sae:
+  train: False
+  run_args_path: ./config/SD/dissecting/train_sae.yaml
+  sae_args_path: ./config/SD/sae_config/sae_config.yaml
+
+train_h_classifier:
+  train: False
+  h_classifier_config_path: ./config/SD/train_h_classifier/h_classifier_config.yaml
+
+locate:
+  locate: False
+  locate_config_path: ./config/SD/locate/locate_config.yaml
+  sae_args_path: ./config/SD/sae_config/sae_config.yaml
+
+bias_mitigation:
+  generate: False
+  generate_config_path: ./config/SD/bias_mitigation/generate_config_race.yaml
+  sae_args_path: ./config/SD/sae_config/sae_config.yaml
