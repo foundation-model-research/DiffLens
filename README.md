@@ -12,7 +12,7 @@
 This is the official repository of [**DiffLens: Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability (CVPR2025)**](https://arxiv.org/abs/2503.20483)
 
 ## Update
-[2025.05.26] Release code.
+[2025.06.13] Release code.
 
 ## Pipeline
 ![](assets/pipeline.jpg)
