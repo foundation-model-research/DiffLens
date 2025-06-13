@@ -62,7 +62,7 @@ python prepare_locating_latents.py
 ```
 
 ## Dissecting Bias Mechanism
-*You can ***skip*** this step and proceed directly to the **"Bias Mitigation"** step because we have provided ready-to-use resources.* in [Checkpints (Google Drive)](https://drive.google.com/drive/folders/1VxfXj4RO-tnxzTQ3LiuBmTGXAtEnkRtm?usp=drive_link).
+*You can ***skip*** this step and proceed directly to the **"Bias Mitigation"** step because we have provided ready-to-use resources* in [Checkpints (Google Drive)](https://drive.google.com/drive/folders/1VxfXj4RO-tnxzTQ3LiuBmTGXAtEnkRtm?usp=drive_link).
 
 ### 1. Train SAE
 ```bash
